@@ -1,0 +1,47 @@
+{
+    "name": "SiteUptime",
+    "description": "SiteUptime Website Monitoring - 24x7 Monitoring and Alerting of Website Outages",
+    "category": "Website Uptime Monitoring",
+    "version": "0.0.1",
+    "account": {
+        "callback_url": "https://siteuptime.com/cloudflare-api/",
+        "user_fields": [
+            "email"
+        ]
+    },
+    "billing": {
+        "type": "zone",
+        "plans": [
+            {
+                "name": "Premium",
+                "price": "5.00"
+            },
+            {
+                "name": "Advanced",
+                "price": "10.00"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/siteuptime/siteuptime-cloudflare.git"
+    },
+    "config": {
+        "assets": {
+            "logos": {
+                "200px": "./public/images/logo-200.png",
+                "132px": "./public/images/logo-132.png"
+            },
+            "detail_page": [
+                "./public/images/logo.png"
+            ]
+        },
+        "details": {
+            "Category": "Website Uptime Monitoring",
+            "Language": "English",
+            "Price": "Free, but can be upgraded to paid options.",
+            "Restrictions": "Free accounts can only monitor one website.",
+            "SiteUptime": "<a href='http://www.siteuptime.com/terms.php' target='_blank'>Terms of Service</a>"
+        }
+    }
+}

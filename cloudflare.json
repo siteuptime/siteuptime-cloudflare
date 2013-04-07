@@ -2,7 +2,7 @@
     "name": "SiteUptime",
     "description": "SiteUptime Website Monitoring - 24x7 Monitoring and Alerting of Website Outages",
     "category": "monitoring",
-    "version": "0.0.2b",
+    "version": "0.0.3",
     "account": {
         "callback_url": "https://siteuptime.com/cloudflare-api/",
         "user_fields": [

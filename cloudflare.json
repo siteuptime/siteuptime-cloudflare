@@ -9,23 +9,6 @@
             "email"
         ]
     },
-    "billing": {
-        "type": "zone",
-        "plans": [
-            {
-                "name": "Trial",
-                "price": "Free"
-            },
-            {
-                "name": "Premium",
-                "price": "5.00"
-            },
-            {
-                "name": "Advanced",
-                "price": "10.00"
-            }
-        ]
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/siteuptime/siteuptime-cloudflare.git"

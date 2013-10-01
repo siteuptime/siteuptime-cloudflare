@@ -13,10 +13,6 @@
         "type": "zone",
         "plans": [
             {
-                "name": "Free",
-                "price": "0.00"
-            },
-            {
                 "name": "Premium",
                 "price": "5.00"
             },
